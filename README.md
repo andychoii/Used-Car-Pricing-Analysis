@@ -111,9 +111,4 @@ Cluster Centers of K=3
 
 Our objective was to perform some data analytical tasks for a cars-dataset. First, we created a Correlation Matrix to view the linear relationship and strengths between variables. The result from this influenced the variables we used within our Decision Tree and Multiple Linear Regression. Secondly, we modeled a Decision Tree to predict the carbody type, to aid in consumers' decision-making. The accuracy rate wasn't high enough, even after pruning, so we built a Random Forest that had a slightly higher accuracy. This gave the probability of the carbody being selected and its contributing percentage. Thirdly, we performed a Multiple Linear Regression, purposely to predict the price of used cars. With 17 variables, we ran three individual models and selected the one with the highest R-squared and Adjusted R-squared. From this, we learned that the prices of the used car are more dependent on performance-based features, rather than aesthetical features. Lastly, we clustered cars based on similarities and dissimilarities, through K-Means Clustering method. Here, the clusters occurred with the prediction of the decision tree. Specifically, "Hardtops" were the most expensive. So too, the cluster this car is in, has the greatest horsepower, lowest fuel efficiency, and shortest traveling distance.
 
-we created a specific parameters. Our Regression model has a reasonably high R-squared to predict the used car prices. Our K-Means clustering visually aggregated similar and dissimilar cars into groups. This informed us about features such as the price and fuel efficiency of a type of a car. On the contrary, prior contributors had only done a descriptive analysis of the data. Some of which had no written findings, explanations, or predictions. Perhaps these were simply other students, or beginners tackling the dataset as a means of practicing in R programming.
-
-
-
-
 
